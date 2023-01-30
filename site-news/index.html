@@ -1,37 +1,150 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <title>Loja Tech</title>
+      <title>News City</title>
       <meta charset="utf-8">
       <link rel="stylesheet" type="text/css" href="estilo.css">
    </head>
-   <body>
-      <div id="principal">
-         <img src="imagens/capa.png">
-      </div>
-      <div id="menu">
-         <a href="index.html">HOME</a> |
-         <a href=".html">JOGOS</a> | 
-         <a href=".html">CELULARES</a> |
-         <a href=".html">INFORMÁTICA</a>
-         <a href=".html">ELETRÔNICOS</a>
-      </div>
-
-      <div id="area-principal">
-         <div id="area-postagens" >
-            <!-- abertura das postagens-->
-            <div calss="postagens">
-               <h2>Titulo da postagem</h2>
-            <span>postado 13 janeiro 2023</span>
-            <img width="620px" src="imagens/imagem1.jpg">
-            <p>
-            Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-            </p>
-            </div>
+   <body id="tres-col" class="home">
+      <!--Inicio do container-->
+      <div id="container">
+         <!--Inicio topo-->
+         <div id="topo">
+            <h1 class="logo">News City</h1>
+            <ul id="naveg">
+               <li class="prim">
+                  <a id="home" href="index.html">HOME</a>
+               </li> 
+               <li>
+                  <a id="bras" href="brasil.html">BRASIL</a>
+               </li>
+               <li>
+                  <a id="int" href="internacional.html">INTERNACIONAL</a>
+               </li>
+               <li>
+                  <a id="eco" href="economia.html">ECONOMIA</a>
+               </li>
+               <li>
+                  <a id="sau" href="saude.html">SAÚDE</a>
+               </li>
+               <li>
+                  <a id="cie" href="ciencia.html">CIÊNCIA</a>
+               </li>
+               <li>
+                  <a id="fot" href="fotos.html">FOTOS</a>
+               </li>
+            </ul>
          </div>
-         <div id="rodape"> 
-         <h4 class="centralizar">Direitos reservados Laurabela.</h4>
+         <!--Fim topo-->
+         <!--Inicio conteudo-->
+         <div id="cont">
+<!--                <div id="post-1" >
+               post centro
+                    <p>
+                        Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                     </p>
+                     <a href="">Leia mais...</a>
+                 </div>
+ -->                  
+               <div id="post-cent">
+                  <div class="caixa destaque">
+                     <h2>Destaque</h2>
+                     <div class="caixa-cont">
+                        <h3 class="destaque">Nova legislação</h3>
+                        <img src="imagens/taxi.jpg" width="100%">
+                        <p>Lorem Ipsum is not simply random text. It has roots in a piece of classical La</p>
+                        <a class="imag-pinc" href="" >Leia mais...</a>
+                     </div>
+                  </div>
+                  <div class="caixa">
+                     <h2>Mundo</h2>
+                        <ul id="list-not">
+                           <li><a href=""><img src="imagens/tecnologia.jpg" width="80">
+                              <h3>Novas tecnologias !</h3>
+                              <p>Lorem iosina asodjfasd asod jfasdno asdfefjd....</p></a>
+                           </li>
+                           <li><a href=""><img src="imagens/tecnologia.jpg" width="80">
+                              <h3>Novas tecnologias !</h3>
+                              <p>Lorem iosina asodjfasd asod jfasdno asdfefjd....</p></a>
+                           </li>
+                           <li><a href=""><img src="imagens/tecnologia.jpg" width="80">
+                              <h3>Novas tecnologias !</h3>
+                              <p>Lorem iosina asodjfasd asod jfasdno asdfefjd....</p></a>
+                           </li>
+                        </ul>
+                  </div>
+               </div>
+<!--Fim bloco do meio-->
+<!--Inicio bloco da direita-->                              
+               <div id="post-lat">
+                  <div class="caixa entrevista">
+                     <h2>Útima Entrevista</h2>
+                     <div class="caixa-cont">
+                        <ul id="list-">
+                           <li><a href=".html">tomas turbando</a></li> 
+                           <li><a href=".html">Pedro picaldo</a></li>
+                           <li><a href=".html">Agusto Cury</a></li>
+                           <li><a href=".html">Elio de Lapenha</a></li>
+                           <li><a href=".html">Aquino Rego</a></li>
+                           <li><a href=".html">Tomas Shelby</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  
+                  <div class="caixa">
+                     <h2>Mundo</h2>
+                        <ul id="list-not">
+                           <li><a href=""><img src="imagens/tecnologia.jpg" width="80">
+                              <h3>Novas tecnologias !</h3>
+                              <p>Lorem iosina asodjfasd asod jfasdno asdfefjd....</p></a>
+                           </li>
+                           <li><a href=""><img src="imagens/tecnologia.jpg" width="80">
+                              <h3>Novas tecnologias !</h3>
+                              <p>Lorem iosina asodjfasd asod jfasdno asdfefjd....</p></a>
+                           </li>
+                           <li><a href=""><img src="imagens/tecnologia.jpg" width="80">
+                              <h3>Novas tecnologias !</h3>
+                              <p>Lorem iosina asodjfasd asod jfasdno asdfefjd....</p></a>
+                           </li>
+                        </ul>
+                  </div>
+               </div>
+<!--Fim bloco da direita-->
+<!--Inicio menu da esquerda-->
+               <div id="menu-esq"> 
+                  <div class="caixa">
+                     <h2>Entrevistas</h2>
+                     <div class="caixa-cont">
+                        <ul >
+                           <li><a href=".html">tomas turbando</a></li> 
+                           <li><a href=".html">Pedro picaldo</a></li>
+                           <li><a href=".html">Agusto Cury</a></li>
+                           <li><a href=".html">Elio de Lapenha</a></li>
+                           <li><a href=".html">Aquino Rego</a></li>
+                           <li><a href=".html">Tomas Shelby</a></li>
+                        </ul>
+                     </div>   
+                  </div>
+                  <div class="caixa">
+                     <h2>Entrevistas</h2>
+                     <div class="caixa-cont">
+                        <form>
+                           <div>
+                              <label for="email">Email:</label>
+                              <input type="text" name="email" id="email" placeholder="E-mail">
+                           </div>
+                           <div>
+                              <input class="submit" type="submit" value="Cadastrar">
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
          </div>
+         <!--Fim conteudo-->
+      </div>
+      <div id="rodape"> 
+         <h4 >&copy; Copyright 1993-2023 News City.</h4>
       </div>
    </body>
 </html>

@@ -1,22 +1,249 @@
-area-logo, #area-menu{
-	padding; 10px;
+/*Estrutura site*/
+
+*{
+	margin: 0;
+	padding: 0;
 }
 
-#area-pincipal{
-	width: 920px;
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #fff url(imagens/fundo.png) repeat-x;
+}
+
+#container{
+	width: 750px;
 	margin: 0 auto;
-	padding: 15px;
 }
 
-#area-postagens, #area-laeral{
-	background: orange;
+#topo{
+	height: 150px;
+	background: url(imagens/detalhe-topo.png) no-repeat right top;
+	padding-top: 25px;
 }
 
-#area-postagens{
-	width: 660px;
+
+.logo{
+	width: 152px;
+	height: 66px;
+	background: url(imagens/logo.png) no-repeat center;
+	text-indent: -3000px;
+}
+
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+/* Barra de navegação*/
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#topo ul{
+	margin-top: 30px;
+	background: #b10333;
 	float: left;
 }
 
-#area-lateral{
-	width: 240px;
-	float: right;
+#topo ul li{
+	float: left;
+}
+
+#topo ul a{
+	font-size: 0.8em;
+	display: block;
+	padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: #fff;
+	background: url(imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul .prim a {
+	background: none;
+}
+
+#topo ul a:hover{
+	color: #69001d;
+}
+
+body.home #naveg a#home,
+body.bras #naveg a#bras,
+body.int #naveg a#int,
+body.eco #naveg a#eco,
+body.sau #naveg a#sau,
+body.cie #naveg a#cie,
+body.fot #naveg a#fot
+{
+	color: #fff;
+	background-color: #de003e;
+	cursor: text;
+}
+
+#topo{
+	background-color: #0073f7;
+	padding: 15px;
+	text-align: center;
+}
+
+/* Configuração Layout*/
+
+#cont{
+	margin-top: 60px;
+	background: #f5f5f5;
+}
+
+#post-cent{
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 195px;
+	
+}
+
+#duas-col #post-cent{
+	width: 555px;
+}
+
+#uma-col #post-cent{
+	width: 750px;
+	margin: 0 0 20px 0px;
+}
+
+#post-lat{
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 15px;
+	
+}
+
+#menu-esq{
+	width: 180px;
+	float: left;
+	margin: 0 0 20px -750px;
+	
+}
+/*Caixa*/
+.caixa{
+	margin: 10px 0;
+	padding: 5px;
+	background: #fff url(imagens/fundo-caixa.png);
+}
+
+h2{
+	font-size: 1em;
+	background: #294c71;
+	color: #fff;
+	padding: 5px;
+}
+
+.caixa-cont{
+	background: #fff;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+.caixa-cont ul a{
+	font-size: 0.9em;
+	padding: 3px;
+	display: block;
+	line-height: 30px;
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+.caixa-cont ul a:hover {
+	background: #f9f9f9 url(imagens/marcador.png) no-repeat left center;
+	padding-left: 20px;
+	color: #a1a1a1;
+}
+
+label{
+	display: block;
+	cursor: pointer;
+}
+
+input{
+	padding: 5px;
+	width: 125px;
+	font-size: 0.9em;
+	background-color: #fff;
+}
+ input.submit{
+	width: 80px;
+	color: #fff;
+	background-color: #b10333;
+	border: 2px solid #870529;
+ }
+
+/* Formatando imagens*/
+
+ img.imag-pinc{
+	width: 98%;
+	border: 3px solid #dfdfdf;
+ }
+
+ /*Formatando cabeçalhos*/
+ h3{
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+ }
+
+ .destaque h3 {
+	background:#b10333;
+	color: #fff;
+ }
+
+ .entrevista h3 {
+	background:#de0033;
+	color: #fff;
+ }
+
+ #list-not li{
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	height: 62px;
+ }
+
+#list-not li a img{
+	float: left;
+	margin: 5px;
+}
+
+#list-not li a{
+	text-decoration: none;
+}
+
+#list-not li a h3{
+	font-size: 0.8em;
+	padding: 0px;
+	color: #3e7ab9;
+}
+
+#list-not li a p{
+	font-size: 0.7em;
+	color: #000;
+}
+
+#list-not li:hover{
+	background: #eee;
+	cursor: pointer;
+}
+
+/*Rodape*/
+#rodape{
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	background: #294c71;
+}
+#rodape.h4{
+	width: 750px;
+	margin: 0 auto;
+	color: #fff;
+}

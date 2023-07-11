@@ -1,0 +1,27 @@
+header{
+    background: navy;
+    border: 5px blue;
+}
+
+nav{
+    background: red;
+    border: 2px solid brown;
+    padding: 10px;
+}
+
+footer{
+    background: orange;
+}
+
+article{
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+section{
+    border: 2px solid aqua;
+}
+
+aside{
+    background: purple;
+}

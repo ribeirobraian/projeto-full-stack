@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Novas Tags HTML 5</title>
+        <meta charset="utf-8">
+
+        <!--Estilo customizado-->
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <!--[if lt IE 9]>
+            <script src="Js/html5shiv.js"></script>
+        <![endif]-->
+<!-- Novas TAGS para os navegadores mais modernos entenderem o que é um cabeçalho(header), Navegação(nav) e rodapé(footer). -->
+    </head>
+    <body>
+       <form>
+            <!--Novos Inputs e atributos HTML 5-->
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required autofocus> 
+            <br><br>
+
+            <!-- Email-->
+            <label for="nome">Email</label>
+            <input type="email" name="email" id="email" required> 
+            <br><br>
+
+            <!-- Número-->
+            <label for="numero">Número</label>
+            <input type="number" name="numero" id="numero" min="0" max="20" step="5"> 
+            <!--MIN define o numero minimo e MAX o maximo, o STEP define de quanto em quanto a setinha pra cima e pra baixo vai contar-->
+            <br><br>
+
+            <!-- Url -->
+            <label for="url">Url</label>
+            <input type="url" name="url" id="url" placeholder="ex: http://www..."> 
+            <br><br>
+
+            <!-- Pesquisa -->
+            <label for="pesquisa">Pesquisa</label>
+            <input type="search" name="pesquisa" id="pesquisa" > 
+            <br><br>
+
+            <!-- Range -->
+            <label for="range">Range</label>
+            <input type="range" name="" id="range" min="1" max="20" value="2"> 
+            <br><br>
+
+            <!-- Data -->
+            <label for="data">Data</label>
+            <input type="date" name="data" id="data" > 
+            <br><br>
+
+            <!-- Cor -->
+            <label for="cor">Cor</label>
+            <input type="color" name="cor" id="cor" > 
+            <br><br>
+
+
+
+
+            <input type="submit" name="" value="Enviar">
+
+    </body>
+</html>

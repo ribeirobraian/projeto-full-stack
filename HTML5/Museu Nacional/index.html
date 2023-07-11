@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Museu Nacional</title>
+	<meta charset="utf-8">
+
+	<!-- Normalize CSS -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+	<!-- Estilo customizado -->
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+	<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+
+	<div id="container"><!-- Início container -->
+		
+		<header><!-- Início header -->
+			<div id="logo">
+				<h1><a href="">Museu Nacional</a></h1>
+			</div>
+
+			<nav><!-- Início nav -->
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Exposições</a></li>
+			        <li><a href="#">Pesquisa</a></li>
+			        <li><a href="#">Acervo</a></li>
+			        <li><a href="#">vídeos</a></li>
+			        <li><a href="#">fotos</a></li>
+			        <li><a href="#">contato</a></li>
+				</ul>
+			</nav><!--/fim nav -->
+
+		</header><!--/fim header -->
+			<div id="princ">
+				<div id="cont"><!-- Início do conteúdo -->
+					<section id="capa">
+						<img src="img/museu.png">
+					</section>
+					
+					<section id="pstg">
+
+						<article id="video">
+							<h3>Víde: conheça o museu</h3>
+							<iframe width="310" height="170" src="https://www.youtube.com/embed/39HVf1Lbzqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</article>
+						<article id="mapa">
+							<h3>Mapa: conheça o museu</h3>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d905.9127034417688!2d-47.878207324022874!3d-15.797417818970768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a309b1e384357%3A0xa8f81b7dc5456548!2sMuseu%20Nacional%20da%20Rep%C3%BAblica!5e0!3m2!1spt-BR!2sbr!4v1686767243809!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>						
+						</article>
+						
+						<article id="expo">
+							<h3>Exposição</h3>
+							<ul>
+								<li>
+									<a href="#">Arte com Dinossauros - Paleoarte</a>
+								</li>
+								<li>
+									<a href="#">Preguiça Gigante e Tigre dente de sabre</a>
+								</li>
+								<li>
+									<a href="#">Plantas do Brasil Central</a>
+								</li>
+								<li>
+									<a href="#">Maior tubarão do mundo - Paleoarte</a>
+								</li>
+								<li>
+									<a href="#">Veja todos (36)</a>
+								</li>
+							</ul>
+						</article>
+
+						<article id="hist">
+							<h3>200 anos de história</h3>
+							<p>
+								O Museu Nacional da República (MuN) faz parte do Conjunto Cultural da República, juntamente com a Biblioteca Nacional de Brasília, e foi inaugurado em 15 de dezembro de 2006. Segundo a designação do Relatório do Plano Piloto de Brasília, elaborado em 1957 por Lucio Costa, o MuN foi construído para integrar o Setor Cultural Sul da Nova Capital.
+							</p>
+							<a href=""><strong>Leia mais...</strong></a>
+						</article>
+					</section>
+				</div><!--/fim do conteudo-->
+
+				<aside>
+					<section id="depo">
+						<img src="img/depoimento.png">
+					</section>
+					<section id="vis">
+						<h4>Faça sua visita</h4>
+						<form>
+							<fieldset>
+								<legend>Selecione uma data</legend>
+
+								<label for="data">Data</label>
+								<input class="cpo" style="width: 70px;" type="text" id="data" value="dd/mm/aaaa">
+								
+								<label for="qtd">Quantidade de pessoas</label>
+								<input class="cpo" style="width: 25px;" type="text" id="qtd" value="1">
+							</fieldset>
+								<input class="bot" type="submit" value="VERIFICAR DISPONIBILIDADE">
+						</form>
+					</section>
+					<section id="gale">
+						<h4>Galeria de Fotos</h4>
+						<a href="">
+							<img src="img/imagem1.jpg" height="93" width="93" alt="Descricao imagem">
+						</a>
+						<a href="">
+							<img src="img/imagem2.jpg" height="93" width="93" alt="Descricao imagem">
+						</a>
+						<a href="">
+							<img src="img/imagem3.jpg" height="93" width="93" alt="Descricao imagem">
+						</a>
+						<a href="">
+							<img src="img/imagem4.jpg" height="93" width="93" alt="Descricao imagem">
+						</a>
+					</section>
+
+				</aside>
+
+				<footer>
+					<p>
+						<a href="#">home</a>
+						<a href="#">Exposições</a>
+						<a href="#">Pesquisa</a>
+						<a href="#">acervo</a>
+						<a href="#">vídeos</a>
+						<a href="#">fotos</a>
+						<a href="#">contato</a>
+					</p>
+					<p>
+						2019 <a href="">Museu Nacional</a> - Todos os direitos reservados.
+					</p>
+				</footer>
+
+			</div><!--/fim da parte principal-->
+
+	</div><!--/fim container -->
+
+</body>
+</html>

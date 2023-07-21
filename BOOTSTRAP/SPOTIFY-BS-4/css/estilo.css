@@ -73,6 +73,10 @@ nav.navbar-trsprt{
     color: black;
 }
 
+.carousel-control-next, .carousel-control-pev{
+    width: 5%;
+}
+
 /*--------ESTRUTURA CONTEUDOS---------*/
 .caixa{
     padding-top: 20px;
